@@ -1,15 +1,1 @@
-[
-  {
-    "id": "admin_001",
-    "nome": "Admin",
-    "cognome": "Admin",
-    "email": null,
-    "username": "admin",
-    "password_hash": "60b9de9d0e983ce9fdd7a6a958c9b7f362a2f31b49fc17f5bcb97ea138870e11",
-    "role": "admin",
-    "fitness_expiry": null,
-    "is_active": true,
-    "created_at": "2026-06-04T22:35:12.657991",
-    "updated_at": "2026-06-04T22:35:12.657991"
-  }
-]
+[{"id":"admin_001","nome":"ENC:lG9tIITqDmsFQZVv9AKnkQ==","cognome":"ENC:lG9tIITqDmsFQZVv9AKnkQ==","email":null,"username":"ENC:QeQXw2Y6d4fAtZaB/HkFtg==","password_hash":"60b9de9d0e983ce9fdd7a6a958c9b7f362a2f31b49fc17f5bcb97ea138870e11","role":"admin","fitness_expiry":null,"is_active":true,"created_at":"2026-06-04T22:35:12.657991","updated_at":"2026-06-04T22:35:12.657991"},{"id":"6537495d1d748","nome":"ENC:UjZAQXR1L9PT8qmFsdJ6dg==","cognome":"ENC:ZFITxGN2PuZ4fECtPXjjtA==","callsign":null,"email":null,"username":"ENC:h2jcECLMS+JPAd3xQuWe7w==","password_hash":"60b9de9d0e983ce9fdd7a6a958c9b7f362a2f31b49fc17f5bcb97ea138870e11","role":"user","org_unit_id":null,"org_unit_name":"","aircraft_qualification_ids":[],"fitness_expiry":null,"is_active":true,"is_approved":true,"created_at":"2026-06-04T23:54:15.133","updated_at":"2026-06-04T23:54:15.133"}]
