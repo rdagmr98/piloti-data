@@ -5,7 +5,7 @@
     "cognome": "Admin",
     "email": null,
     "username": "admin",
-    "password_hash": "dff2c38ec66dd767d9dc8105ad27f5c4bb4948dcf46e2b8ade1e1bbead0db43e",
+    "password_hash": "60b9de9d0e983ce9fdd7a6a958c9b7f362a2f31b49fc17f5bcb97ea138870e11",
     "role": "admin",
     "fitness_expiry": null,
     "is_active": true,

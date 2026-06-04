@@ -1,11 +1,61 @@
 {
   "aircraftTypes": [
-    {"id": 1, "code": "NH90", "name": "NH-90", "active": true},
-    {"id": 2, "code": "AW129", "name": "AW-129", "active": true},
-    {"id": 3, "code": "CH47", "name": "CH-47F", "active": true},
-    {"id": 4, "code": "AB212", "name": "AB-212", "active": true},
-    {"id": 5, "code": "AB412", "name": "AB-412", "active": true},
-    {"id": 6, "code": "AW109", "name": "AW-109", "active": true}
+    {
+      "id": 1,
+      "code": "NH90",
+      "name": "NH-90",
+      "image": "assets/images/helicopters/nh90.jpg",
+      "active": true
+    },
+    {
+      "id": 2,
+      "code": "AW129",
+      "name": "AW-129",
+      "image": "assets/images/helicopters/aw129.jpg",
+      "active": true
+    },
+    {
+      "id": 3,
+      "code": "CH47",
+      "name": "CH-47F",
+      "image": "assets/images/helicopters/ch47.jpg",
+      "active": true
+    },
+    {
+      "id": 4,
+      "code": "AB212",
+      "name": "AB-212",
+      "image": "assets/images/helicopters/ab212.jpg",
+      "active": true
+    },
+    {
+      "id": 5,
+      "code": "AB412",
+      "name": "AB-412",
+      "image": "assets/images/helicopters/ab412.jpg",
+      "active": true
+    },
+    {
+      "id": 6,
+      "code": "AW109",
+      "name": "AW-109",
+      "image": "assets/images/helicopters/aw109.jpg",
+      "active": true
+    },
+    {
+      "id": 7,
+      "code": "AB206",
+      "name": "AB-206",
+      "image": "assets/images/helicopters/ab206.jpg",
+      "active": true
+    },
+    {
+      "id": 8,
+      "code": "UH205",
+      "name": "UH-205",
+      "image": "assets/images/helicopters/uh205.jpg",
+      "active": true
+    }
   ],
   "capabilityTypes": []
 }
