@@ -1,0 +1,11 @@
+{
+  "aircraftTypes": [
+    {"id": 1, "code": "NH90", "name": "NH-90", "active": true},
+    {"id": 2, "code": "AW129", "name": "AW-129", "active": true},
+    {"id": 3, "code": "CH47", "name": "CH-47F", "active": true},
+    {"id": 4, "code": "AB212", "name": "AB-212", "active": true},
+    {"id": 5, "code": "AB412", "name": "AB-412", "active": true},
+    {"id": 6, "code": "AW109", "name": "AW-109", "active": true}
+  ],
+  "capabilityTypes": []
+}

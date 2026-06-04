@@ -1,0 +1,15 @@
+[
+  {
+    "id": "admin_001",
+    "nome": "Admin",
+    "cognome": "Admin",
+    "email": null,
+    "username": "admin",
+    "password_hash": "dff2c38ec66dd767d9dc8105ad27f5c4bb4948dcf46e2b8ade1e1bbead0db43e",
+    "role": "admin",
+    "fitness_expiry": null,
+    "is_active": true,
+    "created_at": "2026-06-04T22:35:12.657991",
+    "updated_at": "2026-06-04T22:35:12.657991"
+  }
+]
