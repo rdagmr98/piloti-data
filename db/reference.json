@@ -10,14 +10,14 @@
     {
       "id": 2,
       "code": "AW129",
-      "name": "AW-129",
+      "name": "AW-129 Mangusta",
       "image": "assets/images/helicopters/aw129.jpg",
       "active": true
     },
     {
       "id": 3,
       "code": "CH47",
-      "name": "CH-47F",
+      "name": "CH-47F Chinook",
       "image": "assets/images/helicopters/ch47.jpg",
       "active": true
     },
@@ -52,10 +52,135 @@
     {
       "id": 8,
       "code": "UH205",
-      "name": "UH-205",
+      "name": "UH-205A",
       "image": "assets/images/helicopters/uh205.jpg",
       "active": true
     }
   ],
-  "capabilityTypes": []
+  "orgUnits": [
+    {
+      "id": 1,
+      "code": "1RGT",
+      "name": "1° Reggimento AVES \"Antares\" - Viterbo"
+    },
+    {
+      "id": 2,
+      "code": "2RGT",
+      "name": "2° Reggimento AVES \"Sirio\" - Lamezia Terme"
+    },
+    {
+      "id": 3,
+      "code": "3RGT",
+      "name": "3° Reggimento AVES \"Aquila\" - Casarsa della Delizia"
+    },
+    {
+      "id": 4,
+      "code": "4RGT",
+      "name": "4° Reggimento AVES \"Altair\" - Bolzano"
+    },
+    {
+      "id": 5,
+      "code": "5RGT",
+      "name": "5° Reggimento AVES \"Rigel\" - Caserta"
+    },
+    {
+      "id": 6,
+      "code": "6RGT",
+      "name": "6° Reggimento AVES \"Vega\" - Brindisi"
+    },
+    {
+      "id": 7,
+      "code": "7RGT",
+      "name": "7° Reggimento AVES \"Fenice\" - Rimini"
+    },
+    {
+      "id": 8,
+      "code": "SCAVES",
+      "name": "SC.AVES - Scuola di Aviazione dell'Esercito - Viterbo"
+    },
+    {
+      "id": 9,
+      "code": "RSTA",
+      "name": "RSTA - Reparto Sperimentale Trasporto Aereo - Viterbo"
+    },
+    {
+      "id": 10,
+      "code": "PA",
+      "name": "PILOTI ALLENATI"
+    }
+  ],
+  "capabilityTypes": [
+    {
+      "id": 1,
+      "code": "NVG",
+      "name": "NVG - Night Vision Goggles",
+      "sort_order": 1
+    },
+    {
+      "id": 2,
+      "code": "GANCIO",
+      "name": "Gancio baricentrico (Sling Load)",
+      "sort_order": 2
+    },
+    {
+      "id": 3,
+      "code": "BENNA",
+      "name": "Benna antincendio (Bambi Bucket)",
+      "sort_order": 3
+    },
+    {
+      "id": 4,
+      "code": "VERRICELLO",
+      "name": "Verricello (Hoist)",
+      "sort_order": 4
+    },
+    {
+      "id": 5,
+      "code": "SAR",
+      "name": "SAR - Search and Rescue",
+      "sort_order": 5
+    },
+    {
+      "id": 6,
+      "code": "MEDEVAC",
+      "name": "MEDEVAC - Evacuazione medica",
+      "sort_order": 6
+    },
+    {
+      "id": 7,
+      "code": "HEMS",
+      "name": "HEMS - Helicopter EMS",
+      "sort_order": 7
+    },
+    {
+      "id": 8,
+      "code": "MONTAGNA",
+      "name": "Operazioni in montagna",
+      "sort_order": 8
+    },
+    {
+      "id": 9,
+      "code": "FLIR",
+      "name": "FLIR / Sensori EO/IR",
+      "sort_order": 9
+    },
+    {
+      "id": 10,
+      "code": "OFFSHORE",
+      "name": "Operazioni offshore",
+      "sort_order": 10
+    },
+    {
+      "id": 11,
+      "code": "TIRATORE",
+      "name": "Supporto tiratore scelto",
+      "sort_order": 11
+    },
+    {
+      "id": 12,
+      "code": "NBQ",
+      "name": "Operazioni NBC/CBRN",
+      "sort_order": 12
+    }
+  ]
 }
