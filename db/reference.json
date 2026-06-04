@@ -55,56 +55,169 @@
       "name": "UH-205A",
       "image": "assets/images/helicopters/uh205.jpg",
       "active": true
+    },
+    {
+      "id": 9,
+      "code": "AW169B",
+      "name": "AW-169B",
+      "image": "assets/images/helicopters/aw169b.jpg",
+      "active": true
+    },
+    {
+      "id": 10,
+      "code": "AW169D",
+      "name": "AW-169D",
+      "image": "assets/images/helicopters/aw169d.jpg",
+      "active": true
+    },
+    {
+      "id": 11,
+      "code": "P180",
+      "name": "Piaggio P.180 Avanti",
+      "image": null,
+      "active": true
+    },
+    {
+      "id": 12,
+      "code": "D228",
+      "name": "Dornier D-228",
+      "image": null,
+      "active": true
     }
   ],
   "orgUnits": [
     {
       "id": 1,
-      "code": "1RGT",
-      "name": "1° Reggimento AVES \"Antares\" - Viterbo"
+      "code": "COMAVES",
+      "name": "COMAVES - Comando Aviazione Esercito - Roma"
     },
     {
       "id": 2,
-      "code": "2RGT",
-      "name": "2° Reggimento AVES \"Sirio\" - Lamezia Terme"
+      "code": "CAAE",
+      "name": "CAAE - Centro Addestramento Aviazione Esercito - Viterbo"
     },
     {
       "id": 3,
-      "code": "3RGT",
-      "name": "3° Reggimento AVES \"Aquila\" - Casarsa della Delizia"
+      "code": "1RGT",
+      "name": "1Â° Reggimento AVES \"Antares\" - Viterbo"
     },
     {
       "id": 4,
-      "code": "4RGT",
-      "name": "4° Reggimento AVES \"Altair\" - Bolzano"
+      "code": "2RGT",
+      "name": "2Â° Reggimento AVES \"Sirio\" - Lamezia Terme"
     },
     {
       "id": 5,
-      "code": "5RGT",
-      "name": "5° Reggimento AVES \"Rigel\" - Caserta"
+      "code": "3RGT",
+      "name": "3Â° Reggimento AVES \"Aquila\" - Casarsa della Delizia"
     },
     {
       "id": 6,
-      "code": "6RGT",
-      "name": "6° Reggimento AVES \"Vega\" - Brindisi"
+      "code": "4RGT",
+      "name": "4Â° Reggimento AVES \"Altair\" - Bolzano"
     },
     {
       "id": 7,
-      "code": "7RGT",
-      "name": "7° Reggimento AVES \"Fenice\" - Rimini"
+      "code": "5RGT",
+      "name": "5Â° Reggimento AVES \"Rigel\" - Caserta"
     },
     {
       "id": 8,
-      "code": "SCAVES",
-      "name": "SC.AVES - Scuola di Aviazione dell'Esercito - Viterbo"
+      "code": "6RGT",
+      "name": "6Â° Reggimento AVES \"Vega\" - Brindisi"
     },
     {
       "id": 9,
-      "code": "RSTA",
-      "name": "RSTA - Reparto Sperimentale Trasporto Aereo - Viterbo"
+      "code": "7RGT",
+      "name": "7Â° Reggimento AVES \"Fenice\" - Rimini"
     },
     {
       "id": 10,
+      "code": "SCAVES",
+      "name": "SC.AVES - Scuola di Aviazione - Viterbo"
+    },
+    {
+      "id": 11,
+      "code": "RSTA",
+      "name": "RSTA - Reparto Sperimentale - Viterbo"
+    },
+    {
+      "id": 12,
+      "code": "PTL1",
+      "name": "PTL 1 - Plotone Trasporto Leggero"
+    },
+    {
+      "id": 13,
+      "code": "PTL2",
+      "name": "PTL 2 - Plotone Trasporto Leggero"
+    },
+    {
+      "id": 14,
+      "code": "PTL3",
+      "name": "PTL 3 - Plotone Trasporto Leggero"
+    },
+    {
+      "id": 15,
+      "code": "PTL4",
+      "name": "PTL 4 - Plotone Trasporto Leggero"
+    },
+    {
+      "id": 16,
+      "code": "ARIETE",
+      "name": "Brigata Corazzata \"Ariete\" - Pordenone"
+    },
+    {
+      "id": 17,
+      "code": "PINER",
+      "name": "Brigata Meccanizzata \"Pinerolo\" - Bari"
+    },
+    {
+      "id": 18,
+      "code": "FOLG",
+      "name": "Brigata Paracadutisti \"Folgore\" - Livorno"
+    },
+    {
+      "id": 19,
+      "code": "GARIB",
+      "name": "Brigata Bersaglieri \"Garibaldi\" - Caserta"
+    },
+    {
+      "id": 20,
+      "code": "AOSTA",
+      "name": "Brigata Meccanizzata \"Aosta\" - Messina"
+    },
+    {
+      "id": 21,
+      "code": "SASS",
+      "name": "Brigata Meccanizzata \"Sassari\" - Sassari"
+    },
+    {
+      "id": 22,
+      "code": "TAUR",
+      "name": "Brigata Alpina \"Taurinense\" - Torino"
+    },
+    {
+      "id": 23,
+      "code": "JULIA",
+      "name": "Brigata Alpina \"Julia\" - Vittorio Veneto"
+    },
+    {
+      "id": 24,
+      "code": "CENTR",
+      "name": "Brigata Corazzata \"Centauro\" - Novara"
+    },
+    {
+      "id": 25,
+      "code": "FRIU",
+      "name": "Brigata Meccanizzata \"Friuli\" - Bologna"
+    },
+    {
+      "id": 26,
+      "code": "GRANS",
+      "name": "Brigata Meccanizzata \"Granatieri di Sardegna\" - Roma"
+    },
+    {
+      "id": 27,
       "code": "PA",
       "name": "PILOTI ALLENATI"
     }
