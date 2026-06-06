@@ -225,182 +225,333 @@
   "capabilityTypes": [
     {
       "id": 1,
-      "code": "NVG",
-      "name": "NVG - Night Vision Goggles",
+      "code": "VV",
+      "name": "Volo a vista (VFR diurno)",
+      "is_base": true,
       "sort_order": 1
     },
     {
       "id": 2,
-      "code": "GANCIO",
-      "name": "Gancio baricentrico (Sling Load)",
+      "code": "S",
+      "name": "Volo strumentale basico",
+      "is_base": true,
       "sort_order": 2
     },
     {
       "id": 3,
-      "code": "BENNA",
-      "name": "Benna antincendio (Bambi Bucket)",
+      "code": "N",
+      "name": "Volo notturno basico",
+      "is_base": true,
       "sort_order": 3
     },
     {
       "id": 4,
-      "code": "VERRICELLO",
-      "name": "Verricello (Hoist)",
+      "code": "Y",
+      "name": "Tattico",
+      "is_base": false,
       "sort_order": 4
     },
     {
       "id": 5,
-      "code": "SAR",
-      "name": "SAR - Search and Rescue",
+      "code": "G",
+      "name": "Notturno SVN-IL",
+      "is_base": false,
       "sort_order": 5
     },
     {
       "id": 6,
-      "code": "MEDEVAC",
-      "name": "MEDEVAC - Evacuazione medica",
+      "code": "H",
+      "name": "Notturno SVN-IR",
+      "is_base": false,
       "sort_order": 6
     },
     {
       "id": 7,
-      "code": "HEMS",
-      "name": "HEMS - Helicopter EMS",
+      "code": "F",
+      "name": "Tiro con armamento di bordo",
+      "is_base": false,
       "sort_order": 7
     },
     {
       "id": 8,
-      "code": "MONTAGNA",
-      "name": "Operazioni in montagna",
+      "code": "I",
+      "name": "Strumentale/IFR",
+      "is_base": false,
       "sort_order": 8
     },
     {
       "id": 9,
-      "code": "FLIR",
-      "name": "FLIR / Sensori EO/IR",
+      "code": "C",
+      "name": "Carichi al gancio",
+      "is_base": false,
       "sort_order": 9
     },
     {
       "id": 10,
-      "code": "OFFSHORE",
-      "name": "Operazioni offshore",
+      "code": "B",
+      "name": "Spegnimento incendi (benna)",
+      "is_base": false,
       "sort_order": 10
     },
     {
       "id": 11,
-      "code": "TIRATORE",
-      "name": "Supporto tiratore scelto",
+      "code": "V",
+      "name": "Verricello di soccorso",
+      "is_base": false,
       "sort_order": 11
     },
     {
       "id": 12,
-      "code": "NBQ",
-      "name": "Operazioni NBC/CBRN",
+      "code": "M",
+      "name": "Volo in montagna",
+      "is_base": false,
       "sort_order": 12
+    },
+    {
+      "id": 13,
+      "code": "A",
+      "name": "Specchi d'acqua (solo ETM)",
+      "is_base": false,
+      "sort_order": 13
+    },
+    {
+      "id": 14,
+      "code": "L",
+      "name": "Lancio paracadutisti",
+      "is_base": false,
+      "sort_order": 14
+    },
+    {
+      "id": 15,
+      "code": "RDR",
+      "name": "Fast Rope / Rappelling / FRIES",
+      "is_base": false,
+      "sort_order": 15
+    },
+    {
+      "id": 16,
+      "code": "AP",
+      "name": "Appontaggio",
+      "is_base": false,
+      "sort_order": 16
     }
   ],
   "flightTypes": [
     {
       "id": 1,
-      "code": "STD",
-      "name": "Volo standard",
+      "code": "VV",
+      "name": "VFR diurno",
+      "maintains": [
+        "VV"
+      ],
       "required_capability": null,
       "sort_order": 1
     },
     {
       "id": 2,
-      "code": "NVG",
-      "name": "Volo NVG (notturno con occhiali)",
-      "required_capability": "NVG",
+      "code": "S",
+      "name": "Strumentale basico",
+      "maintains": [
+        "S",
+        "VV"
+      ],
+      "required_capability": null,
       "sort_order": 2
     },
     {
       "id": 3,
-      "code": "SLING",
-      "name": "Trasporto esterno (Gancio)",
-      "required_capability": "GANCIO",
+      "code": "SIM",
+      "name": "Simulatore (conta per S)",
+      "maintains": [
+        "S"
+      ],
+      "required_capability": null,
       "sort_order": 3
     },
     {
       "id": 4,
-      "code": "BUCKET",
-      "name": "Antincendio (Benna)",
-      "required_capability": "BENNA",
+      "code": "N",
+      "name": "Notturno basico",
+      "maintains": [
+        "N"
+      ],
+      "required_capability": null,
       "sort_order": 4
     },
     {
       "id": 5,
-      "code": "HOIST",
-      "name": "Verricello (Hoist)",
-      "required_capability": "VERRICELLO",
+      "code": "Y",
+      "name": "Tattico",
+      "maintains": [
+        "Y",
+        "VV"
+      ],
+      "required_capability": "Y",
       "sort_order": 5
     },
     {
       "id": 6,
-      "code": "SAR",
-      "name": "SAR - Ricerca e Soccorso",
-      "required_capability": "SAR",
+      "code": "G",
+      "name": "Notturno SVN-IL (G→N, nota 3)",
+      "maintains": [
+        "G",
+        "N"
+      ],
+      "required_capability": "G",
       "sort_order": 6
     },
     {
       "id": 7,
-      "code": "MEDEVAC",
-      "name": "MEDEVAC - Evacuazione medica",
-      "required_capability": "MEDEVAC",
+      "code": "H",
+      "name": "Notturno SVN-IR (H→N, nota 3)",
+      "maintains": [
+        "H",
+        "N"
+      ],
+      "required_capability": "H",
       "sort_order": 7
     },
     {
       "id": 8,
-      "code": "HEMS",
-      "name": "HEMS - Emergenza sanitaria",
-      "required_capability": "HEMS",
+      "code": "F",
+      "name": "Tiro con armamento",
+      "maintains": [
+        "F",
+        "VV"
+      ],
+      "required_capability": "F",
       "sort_order": 8
     },
     {
       "id": 9,
-      "code": "MONTAGNA",
-      "name": "Volo in montagna",
-      "required_capability": "MONTAGNA",
+      "code": "I",
+      "name": "Strumentale/IFR (I→S, nota 6)",
+      "maintains": [
+        "I",
+        "S",
+        "VV"
+      ],
+      "required_capability": "I",
       "sort_order": 9
     },
     {
       "id": 10,
-      "code": "OFFSHORE",
-      "name": "Operazioni offshore",
-      "required_capability": "OFFSHORE",
+      "code": "C",
+      "name": "Carichi al gancio",
+      "maintains": [
+        "C",
+        "VV"
+      ],
+      "required_capability": "C",
       "sort_order": 10
     },
     {
       "id": 11,
-      "code": "FLIR",
-      "name": "Missione con FLIR/EO-IR",
-      "required_capability": "FLIR",
+      "code": "B",
+      "name": "Spegnimento incendi (B→C, nota 5)",
+      "maintains": [
+        "B",
+        "C",
+        "VV"
+      ],
+      "required_capability": "B",
       "sort_order": 11
     },
     {
       "id": 12,
-      "code": "TIRATORE",
-      "name": "Supporto tiratore scelto",
-      "required_capability": "TIRATORE",
+      "code": "V",
+      "name": "Verricello di soccorso",
+      "maintains": [
+        "V",
+        "VV"
+      ],
+      "required_capability": "V",
       "sort_order": 12
     },
     {
       "id": 13,
-      "code": "ADDE",
-      "name": "Addestramento (simulatore/volo)",
-      "required_capability": null,
+      "code": "M",
+      "name": "Volo in montagna",
+      "maintains": [
+        "M",
+        "VV"
+      ],
+      "required_capability": "M",
       "sort_order": 13
     },
     {
       "id": 14,
-      "code": "TRASP",
-      "name": "Trasporto truppe/materiali",
-      "required_capability": null,
+      "code": "A",
+      "name": "Specchi d'acqua",
+      "maintains": [
+        "A",
+        "VV"
+      ],
+      "required_capability": "A",
       "sort_order": 14
     },
     {
       "id": 15,
+      "code": "L",
+      "name": "Lancio paracadutisti",
+      "maintains": [
+        "L",
+        "VV"
+      ],
+      "required_capability": "L",
+      "sort_order": 15
+    },
+    {
+      "id": 16,
+      "code": "RDR",
+      "name": "Fast Rope / Rappelling / FRIES",
+      "maintains": [
+        "RDR",
+        "VV"
+      ],
+      "required_capability": "RDR",
+      "sort_order": 16
+    },
+    {
+      "id": 17,
+      "code": "AP",
+      "name": "Appontaggio",
+      "maintains": [
+        "AP",
+        "VV"
+      ],
+      "required_capability": "AP",
+      "sort_order": 17
+    },
+    {
+      "id": 18,
+      "code": "TRASP",
+      "name": "Trasporto truppe/materiali",
+      "maintains": [
+        "VV"
+      ],
+      "required_capability": null,
+      "sort_order": 18
+    },
+    {
+      "id": 19,
       "code": "RICOGN",
       "name": "Ricognizione",
+      "maintains": [
+        "VV"
+      ],
       "required_capability": null,
-      "sort_order": 15
+      "sort_order": 19
+    },
+    {
+      "id": 20,
+      "code": "ADDE",
+      "name": "Addestramento generico",
+      "maintains": [
+        "VV"
+      ],
+      "required_capability": null,
+      "sort_order": 20
     }
   ]
 }
